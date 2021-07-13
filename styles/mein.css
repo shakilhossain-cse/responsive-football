@@ -18,13 +18,46 @@
     --players-top-gap:70px;
     --player-bottom-gap:27px;
     --player-between-gap:30px;
+    --banner-row-gap:102px;
     /* =======WIDTH====== */
-    --website-width:1440px;
     --mein-width:1050px;
+    --banner-text:485px;
+    --banner-img:419px;
+    /* ====HEIGHT==== */
+    --banner-height:591px;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+/* ------banner section------ */
+.banner{
+    background-color: var(--banner-color);
+    height: var(--banner-height);
+    display: flex;
+    justify-content: center;
+}
+.banner-info{
+    width: var(--mein-width);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: var(--banner-row-gap);
+}
+.banner-text{
+    width: var(--banner-text);
+}
+.banner-text h1{
+    font-size: var(--banner-font-size);
+    color: var(--mein-color);
+}
+
+.banner-img{
+    width: var(--banner-img);
+}
+.banner-img img{
+    width: 100%;
 }
