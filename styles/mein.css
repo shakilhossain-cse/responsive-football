@@ -1,0 +1,30 @@
+/* ========GOOGLE FONTS========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* ========VARIABLE CSS========= */
+:root{
+    /* =====COLORS VARIABLE===== */
+    --mein-color:#FFFFFF;
+    --banner-color:#2D25A0;
+    --bold-text:#18191F;
+    --regular-text:#6C6C6C;
+    --button-bg:#E02C6D;
+    /* =====FONT SIZES====== */
+    --banner-font-size:64px;
+    --bold-text-font-size:28px;
+    --text-font-size:16px;
+    --copyright-font-size:24px;
+    /* =======GAP SIZE======= */
+    --players-top-gap:70px;
+    --player-bottom-gap:27px;
+    --player-between-gap:30px;
+    /* =======WIDTH====== */
+    --website-width:1440px;
+    --mein-width:1050px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
