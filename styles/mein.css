@@ -73,6 +73,12 @@
   left: 0px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* ------header section------ */
 header {
   background-color: var(--banner-color);
@@ -124,11 +130,7 @@ nav {
 
 /* -----players section----- */
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .players {
   width: var(--mein-width);
   display: grid;
@@ -160,7 +162,7 @@ nav {
 }
 .heading {
   text-align: center;
-  font-size: 25px;
+  font-size: var(--heading-font-size);
   padding: 20px 0;
 }
 
@@ -201,10 +203,40 @@ nav {
   grid-row:  4 / span 1;
 }
 
+/* --------news latter section------ */
+.news_latter{
 
 
+}
+.news-latter-detille{
+  width: var(--mein-width);
+  display: flex;
+  justify-content: space-around;
+}
+.news-latter-text{
+  width: 50%;
+  height: 3rem;
+}
+.news-latter-text h3{
+font-size: 4rem;
+color: black;
+}
+.news-latter-input input{
+  margin-top: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  padding: 4px;
+  width: 100%;
+}
+.news-latter-input a{
+  text-decoration: none;
+  color: white;
+}
 /* ----------footer section ---------- */
-
+footer{
+  margin-top: 8rem;
+}
 .logo img {
   width: var(--logo-width);
   height: var(--logo-height);
