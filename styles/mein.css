@@ -388,6 +388,9 @@ font-size: 3rem;
   main{
     width: fit-content;
   }
+     .login{
+     display:none;
+   }
   /* header nav bar  */
   .menu-item{
       display: none;
