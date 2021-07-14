@@ -262,6 +262,9 @@ footer{
   .menu-item{
       display: none;
   }
+   .login{
+     display:none;
+   }
   .menu-item >.bar{
     display: block;
     color: white;
